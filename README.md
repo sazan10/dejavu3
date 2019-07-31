@@ -295,3 +295,11 @@ wav | 1885
 fingerprints | 377
 
 There's a pretty direct trade-off between the necessary record time and the amount of storage needed. Adjusting the amplitude threshold for peaks and the fan value for fingerprinting will add more fingerprints and bolster the accuracy at the expense of more space. 
+
+If pyaudio fails to install, perform:
+```
+	sudo apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
+	sudo apt-get install ffmpeg libav-tools
+	sudo pip install pyaudio
+```
+The second step can be skipped.	
