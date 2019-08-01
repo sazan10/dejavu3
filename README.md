@@ -303,3 +303,19 @@ If pyaudio fails to install, perform:
 	sudo pip install pyaudio
 ```
 The second step can be skipped.	
+
+An extra python module wavio needs to be installed, which has been added in the requirements.txt file or use
+```
+ pip install wavio
+``` 
+
+In case it shows 'ffmpeg' not found install it:
+```
+sudo apt-get install ffmpeg
+```
+If the above does not work use:
+```
+sudo add-apt-repository ppa:jon-severinsson/ffmpeg
+sudo apt-get update
+sudo apt-get install ffmpeg
+```
