@@ -298,7 +298,9 @@ There's a pretty direct trade-off between the necessary record time and the amou
 
 
 #REQUIREMENT
+
 ###PYTHON 3.6 or Higher
+
 May not work with python 3.5
 
 If pyaudio fails to install, perform:
