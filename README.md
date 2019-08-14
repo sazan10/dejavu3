@@ -297,8 +297,8 @@ fingerprints | 377
 There's a pretty direct trade-off between the necessary record time and the amount of storage needed. Adjusting the amplitude threshold for peaks and the fan value for fingerprinting will add more fingerprints and bolster the accuracy at the expense of more space. 
 
 
-*REQUIREMENT
-PYTHON 3.6 or Higher
+#REQUIREMENT
+###PYTHON 3.6 or Higher
 May not work with python 3.5
 
 If pyaudio fails to install, perform:
