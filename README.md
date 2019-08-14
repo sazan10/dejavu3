@@ -296,6 +296,11 @@ fingerprints | 377
 
 There's a pretty direct trade-off between the necessary record time and the amount of storage needed. Adjusting the amplitude threshold for peaks and the fan value for fingerprinting will add more fingerprints and bolster the accuracy at the expense of more space. 
 
+
+*REQUIREMENT
+PYTHON 3.6 or Higher
+May not work with python 3.5
+
 If pyaudio fails to install, perform:
 ```
 	sudo apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
@@ -325,7 +330,7 @@ Install mysql server
   sudo systemctl enable mysql
 ```
 
-Create a dejavu.cnf file :
+Create a dejavu.cnf file since it was ignored in gitignore :
 ```
 {
     "database": {
